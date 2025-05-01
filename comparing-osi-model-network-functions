@@ -1,0 +1,119 @@
+## Learning Objectives
+
+- Compare and Contrast OSI Model Layers
+- Configure SOHO Networks
+
+## **1A: OSI Model Layers**
+
+### **Key Concept: Network**
+
+- A **network** connects two or more computer systems via a transmission medium.
+- Addressing: Describes where data messages should go
+- Encapsulation: How packages should be packaged for transmission
+
+### **OSI Model Overview**
+
+- The **OSI Model** provides a standard framework for communication functions in networks.
+- **Mnemonic**: "*All People Seem To Need Data Processing*"
+    1. **Application (Layer 7)**
+    2. **Presentation (Layer 6)**
+    3. **Session (Layer 5)**
+    4. **Transport (Layer 4)**
+    5. **Network (Layer 3)**
+    6. **Data Link (Layer 2)**
+    7. **Physical (Layer 1)**
+
+### **Physical Layer (Layer 1)**
+
+- **Function**: Transmits raw bits over physical media.
+    - **Devices**: Repeaters, hubs, modems, transceivers, media converters.
+    - **Media**: Copper cables, fiber optic cables, wireless signals.
+    
+    ### **Data Link Layer (Layer 2)**
+    
+    - **Function**: Ensures error-free data transmission.
+    - **Key Protocols**: MAC addresses, ARP (resolves IP to MAC).
+    - **Devices**: Switches, Wireless Access Points (WAPs).
+    
+    ### **Network Layer (Layer 3)**
+    
+    - **Function**: Handles logical addressing (IP) and routing.
+    - **Devices**: Routers, firewalls.
+    
+    ### **Transport Layer (Layer 4)**
+    
+    - **Function**: Ensures reliable (TCP) or unreliable (UDP) delivery.
+    - **Key Tools**: Port numbers, network sockets.
+    - **Command**: `netstat` shows active connections.
+    
+    ### **Upper Layers (5-7)**
+    
+    - **Session Layer (Layer 5)**: Manages communication sessions.
+    - **Presentation Layer (Layer 6)**: Formats/encrypts data for transmission.
+    - **Application Layer (Layer 7)**: Provides services (HTTP, DNS, SMTP).
+
+---
+
+## **1B: Configuring SOHO Networks**
+
+### **Key Concept: Network Types**
+
+- **LAN**: Single location networks
+- **SOHO**: Small-scale LAN for offices/homes.
+- **WAN**: Networks across different regions.
+
+### **SOHO Router**
+
+- **Components**: Combines modem, switch, wireless access point.
+- **Key Connections**:
+    - **Private Network Address**
+    - **Public Internet Address**
+- **Protocol**: DHCP dynamically assigns IPs to devices.
+
+### **Firewall**
+
+- Rules are set at **Transport Layer (Layer 4)** to manage port behaviors.
+
+---
+
+### **Internet Standards**
+
+### Organizations & Protocols
+
+- **IANA**: Oversees IP allocation.
+- **ICANN**: Manages domain names.
+- **RFCs**: Internet standards documentation (e.g., RFC 1918 defines private IP ranges).
+
+---
+
+### **Numeric Notation**
+
+### Conversion Basics
+
+- **Binary (Base 2)**: Digital representation.
+- **Hexadecimal (Base 16)**: 0-9, A-F (e.g., 12 → `0xC`, 171 → `0xAB`).
+
+---
+
+### **Guidelines for OSI Functions**
+
+- **Physical Layer**: Plan wiring and media.
+- **Data Link Layer**: Use logical segments for performance/security.
+- **Network Layer**: Map segments to logical IDs.
+- **Transport Layer**: Evaluate port/service exposure.
+- **Upper Layers**: Analyze performance/security needs.
+
+---
+
+### **Review Questions**
+
+1. At which OSI layer is the concept of a port number introduced?
+2. At which OSI layer is no header encapsulation applied?
+3. Which component amplifies signals to extend media distances?
+4. Which OSI layer packages bits into frames?
+5. True or False? The Session layer bridges data between the Network and Presentation layers.
+6. True or False? The WAN port on a SOHO router is connected to LAN ports via an internal switch.
+7. Which address type is used to forward transmissions in a switch?
+8. True or False? DHCP auto-assigns IPs to the WAN interface in SOHO routers.
+9. What feature prevents unauthorized Internet access to LAN servers?
+10. Convert: Decimal 12 → Hex? Decimal 171 → Hex?
