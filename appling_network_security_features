@@ -1,0 +1,43 @@
+Lesson Objectives
+
+- What is an authentication factor, and what different factors are available?
+- What is the difference between local and remote authentication?
+- What is the relationship between authentication, authorization, and single sign-on?
+- How do certificates and PKI support authentication?
+- What roles do RADIUS, TACACS+, and SAML play in authentication?
+
+10.1 Authentication
+
+- Access Control
+    - Identification
+    - Authentica
+    - Authorization
+    - Accounting
+- Single Sign On & Kerberos
+    - Single Sign On: Allows user to authenticate once to a local device and be authorized to access compatible servers
+    - Kerberso provides SSO Authentication to Active Directory
+- Digital Certificates & PKI
+    - Protocol such as Kerberos can be used with smart cards
+- Key Management
+    - Key Generation
+    - Storage
+    - Revocation
+    - Expiration & Renewal
+- Federated Identity and SAML
+  - Security Assertion Markup Language (SAML) assertions are written in XML 
+    - Implement in AWS
+- Remote Authentication 
+  - Remote Authentication Dial-In USer Service (RADIUS) is used widely: VPN to Client Access
+  - TACACS+: Rarely used in enterprise
+
+10.2 Authorization and Account Management 
+  1.4 Explain common networkingn prots, protocols, services, and traffic types
+  4.1 Explain the importance of basic security concepts
+
+- Authoriation and Role Based Access Control 
+  - Discretionary Access Control (DAC): Primacy of the resource owner
+  - RBAC: Organization defines its authenoraiotns in terms of the taskt that na employee or service must be able to perform. 
+    - Administrators should be prevented to escalating their own priveleges
+  - Priveleged Access Management
+    - Least Privelege: User is granted sufficient rights to perform their job and no more
+    - Separation of Duties: Means of 
