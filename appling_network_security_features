@@ -40,4 +40,32 @@ Lesson Objectives
     - Administrators should be prevented to escalating their own priveleges
   - Priveleged Access Management
     - Least Privelege: User is granted sufficient rights to perform their job and no more
-    - Separation of Duties: Means of 
+    - Separation of Duties: Means of establishing checks and balances
+- Lightweight Directory Access Protocol 
+    - Port 389
+- LDAP Secure
+    - Port 636
+
+10.3 Network Hardening
+    4.3 Apply Network Security Features, Defense Techniques and Solutions
+
+- Deploying systems in a secure configuration involve
+    - Change default passwords | Credentials
+    - Enforce passowrd completxity | lengthy requirements 
+
+10.4 Switch Security
+    4.3
+
+- Network Access Control & Port Security
+    - Disable Uneeded Switch Ports
+    - MAC Filtering 
+
+
+10.5 Network Security Rules
+
+- Security Rules & ACL Configuration
+- Proxy Servers
+- Misconfigured Firewall and ACL Issues
+- Creating Firewall ACLs
+
+10. 6 Additional Resources
