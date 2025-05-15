@@ -1,0 +1,55 @@
+Lesson Ojectives
+
+- Summarize Wireless Standards
+- Install and Configure Secure Wireless Networks
+- Troublesshot Wireless Networks
+
+12.1 Wireless Concepts and Standards
+
+- IEEE 802.11 Wireless Standards → Wi-Fi
+    - Uses Carrier sense multiple access with collision avoidance (CSMA/CA)
+- IEEE 802.11a and 5GHz Channel Bandwidth
+    - Frequency Band and Channels
+        - 2.4 GHz is better through solid surfaces
+        - 5 Ghz is better for higher data rates at shorter ranges and not through solid surfaces
+- IEEE 8021b/g and 2.4 GHz Channel Bandwidth
+- IEEE 802.11n, MIMO, and Channel Bonding
+- Wi-Fi 5 and Wi-Fi 6
+- Multiuser MIMO and Band Steering
+    - Multiple Input Multiple Output (MIMO)
+- Cellular Technologies
+- Satellite Technologies
+
+12.2 Enterprise Wireless Network Design
+
+1.2 Compare and contrast networking appliances, applications, and functions.
+
+2.3 Given a scenario, select and configure wireless devices and technologies.
+
+3.1 Explain the purpose of organizational processes and procedures.
+
+Infrastructure Network Type
+- Range and Signal Strength
+    - Received Signal Strength Indicator (RSSI)
+- Wireless Surveys and Heat Maps
+- Wireless Roaming
+- Wireless Controllers
+- Antenna Types
+
+12.3: Wireless Security
+
+- Wifi Encyrption Standards
+- Personal Authentication
+- Enterprise Authentication
+- Guest Networks and Captive Portals
+- Bring your own Device Issues
+- Wireless NEtwork Attacks
+
+
+12.4 Wireless Troubleshooting
+- Divided into: Physical Layer Issues with Signal Strength or Interface and Configuration Issues 
+
+12.4.7 Lab
+  
+
+  
